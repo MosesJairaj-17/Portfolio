@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Moses Jairaj</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">Portfolio - Moses Jairaj</div>
+
+        <ul class="nav-links">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">My Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+
+        <div class="menu-toggle" id="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+
+      <img src="moses.jpg" alt="Moses Jairaj" class="profile-pic" />
+      <h1>Moses Jairaj</h1>
+      <p>Web Developer</p>
+      <a href="MOSES RESUME.pdf" download class="cv-btn">Download CV</a>
+    </header>
+
+    <section id="about">
+      <h2>About me</h2>
+      <p>
+        Hi! I’m Moses Jairaj, an IT student with a strong passion for technology
+        and innovation. I love exploring the world of programming, web
+        development, and databases. My goal is to create efficient,
+        user-friendly, and creative digital solutions that make a real impact. I
+        enjoy learning new technologies and applying them in projects that
+        challenge my problem-solving and logical thinking skills. Currently, I’m
+        enhancing my skills in Python, JavaScript, HTML, CSS, and React, while
+        also gaining a solid foundation in software development and database
+        management. I believe in continuous learning and enjoy working on
+        projects that combine creativity with technology.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project">
+        <h3>Project - RecoWorld</h3>
+
+        <h4>Description</h4>
+        <p>
+          RecoWorld is a centralized platform that allows users to discover and
+          explore books and movies in one place. It provides search and
+          genre-based browsing, displays detailed content information, and
+          enables users to save favourites for personalization. The platform
+          ensures smooth performance with a Flask–MySQL backend and delivers an
+          interactive, responsive UI for a seamless user experience.
+        </p>
+
+        <h4>Scope</h4>
+        <ul>
+          <li>Combines books and movies on one platform.</li>
+          <li>Supports advanced search and genre filters.</li>
+          <li>
+            Stores detailed data (title, author/director, genre, etc.) in MySQL
+          </li>
+          <li>Allows users to save favourites and create collections</li>
+        </ul>
+
+        <h4>Applicability</h4>
+        <ul>
+          <li>For users to explore and organize books/movies easily.</li>
+          <li>
+            Useful for students, libraries, and institutions as a digital
+            catalogue.
+          </li>
+          <li>Suitable for entertainment enthusiasts and academic projects.</li>
+          <li>Scalable for commercial use as a recommendation platform.</li>
+        </ul>
+
+        <h4>Technologies Used</h4>
+        <ul>
+          <li>Frontend: HTML, CSS, JavaScript</li>
+          <li>Backend: Python (Flask Framework)</li>
+          <li>Database: MySQL Workbench</li>
+          <li>Authentication: Firebase (Google Sign-In)</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/xgvpggnk" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <p>&copy; 2025 Moses Jairaj. All Rights Reserved.</p>
+
+        <div class="social-links">
+          <a href="https://github.com/MosesJairaj-17" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/moses-jairaj-b6154a320"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:mosesjairaj2005@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
